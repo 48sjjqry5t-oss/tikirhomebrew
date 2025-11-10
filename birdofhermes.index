@@ -7,6 +7,9 @@
     <update version="1.0" />
   </info>
 
+  <!-- Aurora Builder requires a <files> node, even if empty -->
+  <files />
+
   <elements>
     <info>
       <name>Way of Bird of Hermes</name>
