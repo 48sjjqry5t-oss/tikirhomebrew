@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Bird of Hermes (Homebrew)</name>
+    <description>Monk subclass: Way of Bird of Hermes</description>
+    <author>Batuhan Takır</author>
+    <update version="1.0">
+      <file name="BirdOfHermes.xml" url="https://raw.githubusercontent.com/48sjjqry5t-oss/tikirhomebrew/main/BirdOfHermes.xml" />
+    </update>
+  </info>
+
+  <files>
+    <file name="BirdOfHermes.xml" url="https://raw.githubusercontent.com/48sjjqry5t-oss/tikirhomebrew/main/BirdOfHermes.xml" />
+  </files>
+</index>
