@@ -4,23 +4,10 @@
     <name>Way of Bird of Hermes</name>
     <description>Monastic Tradition Subvariant - Bird of Hermes (Homebrew)</description>
     <author>Batuhan Takır</author>
-    <update version="1.0">
-      <file name="BirdOfHermes.index" url="https://raw.githubusercontent.com/48sjjqry5t-oss/tikirhomebrew/main/BirdOfHermes.index" />
-    </update>
+    <version>1.0</version>
   </info>
 
-  <files>
-    <file name="BirdOfHermes.index" url="https://raw.githubusercontent.com/48sjjqry5t-oss/tikirhomebrew/main/BirdOfHermes.index" />
-  </files>
-
   <elements>
-    <info>
-      <name>Way of Bird of Hermes</name>
-      <description>Monastic Tradition Subvariant for Monk - Bird of Hermes</description>
-      <author>Batuhan Takır</author>
-      <version>1.0</version>
-    </info>
-
     <element name="Way of Bird of Hermes" type="Archetype" source="Homebrew" id="ID_HOMEBREW_MONK_TRADITION_BIRD_OF_HERMES">
       <supports>Monastic Tradition</supports>
       <prerequisite>Monk</prerequisite>
