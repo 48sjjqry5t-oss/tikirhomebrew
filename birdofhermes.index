@@ -4,11 +4,14 @@
     <name>Way of Bird of Hermes</name>
     <description>Monastic Tradition Subvariant - Bird of Hermes (Homebrew)</description>
     <author>Batuhan Takır</author>
-    <update version="1.0" />
+    <update version="1.0">
+      <file name="BirdOfHermes.index" url="https://raw.githubusercontent.com/48sjjqry5t-oss/tikirhomebrew/main/BirdOfHermes.index" />
+    </update>
   </info>
 
-  <!-- Aurora Builder requires a <files> node, even if empty -->
-  <files />
+  <files>
+    <file name="BirdOfHermes.index" url="https://raw.githubusercontent.com/48sjjqry5t-oss/tikirhomebrew/main/BirdOfHermes.index" />
+  </files>
 
   <elements>
     <info>
@@ -114,6 +117,5 @@
         If your spirit slays a creature during that time, your body revives with 1 HP. Once per long rest.
       </description>
     </element>
-
   </elements>
 </index>
