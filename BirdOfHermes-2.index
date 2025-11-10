@@ -1,114 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-    <info>
-        <name>Way of Bird of Hermes</name>
-        <description>Monastic Tradition Subvariant - Bird of Hermes (Homebrew)</description>
-        <author>Batuhan Takır</author>
-        <update version="1.0" />
-    </info>
-</index>
+  <info>
+    <name>Way of Bird of Hermes</name>
+    <description>Monastic Tradition Subvariant - Bird of Hermes (Homebrew)</description>
+    <author>Batuhan Takır</author>
+    <update version="1.0" />
+  </info>
 
-<elements>
+  <elements>
     <info>
-        <name>Way of Bird of Hermes</name>
-        <description>Monastic Tradition Subvariant for Monk - Bird of Hermes</description>
-        <author>Batuhan Takır</author>
-        <version>1.0</version>
+      <name>Way of Bird of Hermes</name>
+      <description>Monastic Tradition Subvariant for Monk - Bird of Hermes</description>
+      <author>Batuhan Takır</author>
+      <version>1.0</version>
     </info>
 
     <element name="Way of Bird of Hermes" type="Archetype" source="Homebrew" id="ID_HOMEBREW_MONK_TRADITION_BIRD_OF_HERMES">
-        <supports>Monastic Tradition</supports>
-        <prerequisite>Monk</prerequisite>
-        <description>The Disciple Bird of Hermes comes from the tradition: Way of the Astral Self and infuses it with the Soul Bird.
-Monks of this path relinquish their wings and reveal their astral form, a representation of their will.
-They are philosophers of volition and pain — to understand freedom, one must first touch pain.
+      <supports>Monastic Tradition</supports>
+      <prerequisite>Monk</prerequisite>
+      <description>The Bird of Hermes Monks follow the path of the Astral Self, embracing their inner will and sacrificing their wings to gain true freedom.
+They are philosophers of volition and pain — to master oneself is to conquer restraint.
 
-"Bird of Hermes is my name, cut thy wings to make me tame."</description>
-        <sheet display="false" />
+"Bird of Hermes is my name, eating my wings to make me tame."</description>
+      <sheet display="false" />
     </element>
 
     <element name="Wings of Untamed Wind" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_WINGS_OF_UNTAMED_WIND">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 3</prerequisite>
-        <description>As a bonus action, spend 1 ki to summon spectral wings of untamed wind for 10 minutes (ends early if you are incapacitated or die).
-Each creature of your choice within 10 feet makes a Dexterity save or takes force damage equal to two rolls of your Martial Arts die.
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 3</prerequisite>
+      <description>At 3rd level, you can spend 1 ki point as a bonus action to manifest spectral wings of wind and will for 10 minutes.
 While active:
-• You may use Wisdom instead of Strength for Strength checks and saving throws.
-• You can make unarmed strikes with the spectral wings; reach with these attacks is increased by 5 feet.
-• Attacks with the wings use Wisdom for attack and damage and deal force damage.
-• Soul Sense: Sense living creatures within 15 feet (30 feet at 6th level) through walls/darkness (you feel presence, you do not see).
-• Spirit Combo: When you hit with Untamed Wings, you can make one Unarmed Strike as a bonus action without spending ki (stacks with Martial Arts).
-• Whispering Soul: Once per long rest, telepathically speak a short phrase to a creature within 30 feet.
-• Spirit Infusion (from 4th level): Your Unarmed Strikes and Astral attacks count as magical for overcoming resistance and immunity.</description>
+• You gain +10 ft flying speed (hover) and use Wisdom instead of Strength for Strength checks and saves.
+• You can make unarmed strikes with the spectral wings; reach increases by 5 ft, and they deal force damage.
+• Once per turn when you hit with the wings, you can make an additional unarmed strike as a bonus action without spending ki.
+• You sense creatures within 15 ft through obstacles or darkness (as if using blindsense).</description>
     </element>
 
     <element name="Soul Dive" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_SOUL_DIVE">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 5</prerequisite>
-        <description>As a bonus action, spend 1 ki to teleport up to 15 feet to an unoccupied space you can see.
-This movement does not provoke opportunity attacks.</description>
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 5</prerequisite>
+      <description>As a bonus action, spend 1 ki to teleport up to 15 feet to an unoccupied space you can see. This movement does not provoke opportunity attacks.</description>
     </element>
 
     <element name="Sword of the Messenger" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_SWORD_OF_THE_MESSENGER">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 6</prerequisite>
-        <description>You can summon the visage of your astral self. While active:
-• Astral Sight: See normally in magical and nonmagical darkness to 120 ft.
-• Wisdom of the Spirit: Advantage on Wisdom (Insight) and Charisma (Intimidation) checks.
-• Word of the Spirit: Speak so only one creature within 60 ft can hear you, or amplify your voice to 600 ft.
-
-Astral Blade (Soul Reaver’s Edge): As a bonus action, spend 1 ki to summon a spectral blade for 10 minutes. Choose Force, Radiant, or Necrotic damage.
-Use Wisdom for attack and damage; damage is 1d8 + Wisdom.
-• Soul Wound: On a hit, target makes a Con save (DC 8 + Prof + Wis). On failure, it takes +1d6 damage and loses resistances until your next turn ends.
-• Soul Edge: The first hit each time you summon the blade deals +1d4 + Wis (1d6 at 11th, 1d8 at 17th).
-• Soul Sever: While the blade is active, you can see invisible creatures and sense living ones within 30 ft; first attack against you each round has disadvantage.</description>
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 6</prerequisite>
+      <description>You can summon a spectral blade of pure intent. As a bonus action, spend 1 ki to summon the Astral Blade for 10 minutes.
+• Choose Force, Radiant, or Necrotic damage.
+• Use Wisdom for attack and damage rolls (1d8 + Wis).
+• On a hit, the target must make a Con save (DC 8 + Prof + Wis) or take +1d6 damage and lose resistances until your next turn.
+• While the blade is active, you can see invisible creatures and have advantage on Insight and Intimidation checks.</description>
     </element>
 
     <element name="Iron Will" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_IRON_WILL">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 9</prerequisite>
-        <description>When a creature hits you with an attack, you can use your reaction and spend 1 ki to force the attacker to reroll, taking the lower result.
-Reduce the damage you take by 1d10 + Wisdom modifier (min 1). If it still hits, half the damage transfers to your spirit.
-Use once per short rest (twice at 14th level).</description>
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 9</prerequisite>
+      <description>When a creature hits you with an attack, you can use your reaction and spend 1 ki to force the attacker to reroll, taking the lower result.
+Reduce the damage you take by 1d10 + Wisdom modifier. If it still hits, half the remaining damage transfers to your spirit. Once per short rest (twice at 14th level).</description>
     </element>
 
     <element name="Will and the Blade" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_WILL_AND_BLADE">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 11</prerequisite>
-        <description>When both astral wings and blade are summoned, your astral body manifests (no action).
-While active:
-• Empowered Wings: Once per turn when you hit with Wings of Untamed Wind, deal extra damage equal to your Martial Arts die.
-• Your spirit can move up to 50 ft away from you; both body and spirit can each attack once per turn.
-• Creatures within 10 ft of your spirit gain temp HP equal to your Wisdom modifier at the start of their turn.
-• When your spirit scores a critical hit, your body gains advantage on its next attack.</description>
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 11</prerequisite>
+      <description>When both your spectral wings and blade are summoned, your astral body manifests. While active:
+• You and your spirit can each attack once per turn.
+• When you hit with the wings, deal extra damage equal to your Martial Arts die.
+• Allies within 10 ft of your spirit gain temporary HP equal to your Wisdom modifier at the start of their turn.</description>
     </element>
 
     <element name="Soul Rend" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_SOUL_REND">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 14</prerequisite>
-        <description>When you slay a creature, capture a fragment of its essence as a Soul Echo (max 3).
-Expend one to deal +1d8 force damage on an attack (multiple may be spent). All echoes fade after a long rest.</description>
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 14</prerequisite>
+      <description>When you slay a creature, you capture a fragment of its essence as a Soul Echo (max 3).
+You can expend one echo to deal +1d8 force damage on a hit. All echoes fade after a long rest.</description>
     </element>
 
     <element name="Phoenix" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_PHOENIX">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 17</prerequisite>
-        <description>As a bonus action, spend 5 ki to fully awaken your astral self for 10 minutes (ends early if incapacitated or you die).
-While awakened:
-• Armor of the Spirit: +2 AC bonus.
-• Astral Barrage: When making Extra Attack (2 attacks), you may instead make 3 attacks if all use astral wings.
-• All your attacks deal Soul Damage, ignoring resistances and immunities.
-• On a crit, target makes a Wisdom save (DC 8 + Prof + Wis) or is Stunned until your next turn ends.
-• Lasts 1 minute.
-• When the awakening ends, if you’d drop to 0 HP, you remain at 1 HP (once per long rest).
-• Each kill during awakening heals allies within 10 ft equal to your Wisdom modifier.</description>
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 17</prerequisite>
+      <description>As a bonus action, spend 5 ki to awaken your full astral form for 10 minutes. While awakened:
+• +2 AC.
+• You can make 3 attacks with Extra Attack if all are with astral wings.
+• All your attacks deal soul damage (ignoring resistances and immunities).
+• On a critical hit, the target must make a Wisdom save (DC 8 + Prof + Wis) or be stunned until your next turn.
+• If you would drop to 0 HP while awakened, you remain at 1 HP once per long rest.
+• Each kill during this state heals allies within 10 ft equal to your Wisdom modifier.</description>
     </element>
 
     <element name="Messenger Thyself" type="Archetype Feature" source="Homebrew" id="ID_HOMEBREW_MONK_BIRD_OF_HERMES_MESSENGER_THYSELF">
-        <supports>Monastic Tradition, Way of Bird of Hermes</supports>
-        <prerequisite>Monk 20</prerequisite>
-        <description>If you die, your spirit continues to fight for 1 minute in its awakened form.
-Your spirit regains HP each turn equal to Wisdom modifier + half Monk level.
-If your spirit slays a creature, your body revives with 1 HP. Once per long rest.</description>
+      <supports>Monastic Tradition, Way of Bird of Hermes</supports>
+      <prerequisite>Monk 20</prerequisite>
+      <description>Upon death, your spirit continues to fight for 1 minute in awakened form. It regains HP each turn equal to your Wisdom modifier + half your Monk level.
+If your spirit slays a creature during that time, your body revives with 1 HP. Once per long rest.</description>
     </element>
-</elements>
+
+  </elements>
+</index>
